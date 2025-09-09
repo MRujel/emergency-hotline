@@ -25,7 +25,7 @@
     </div>
     <div id="nav-right" class="flex items-center gap-4">
         <div id="nav-hearts" class="flex items-center gap-1 bg-[#f5fff6] px-3 py-1 rounded">
-            <span>0</span>
+            <span id="heart-number" >0</span>
             <span>❤️</span>
         </div>
         <div id="nav-stars" class="flex items-center gap-1 bg-[#f5fff6] px-3 py-1 rounded">
@@ -52,7 +52,7 @@
 <!-- Main SEction Starts -->
    <div id="main-section-container" class="min-h-screen border-2 border-red-500 my-4 mx-4 flex gap-4">
     <!-- left section -->
-      <div id="left-section-container" class="border-2 border-green-500 grid grid-cols-2 gap-4 w-3/4">
+      <div id="left-section-container" class="border-2 border-green-500 grid grid-cols-3 gap-4 w-3/4">
         <div id="card-container" class="bg-white p-4">
             <div class="flex justify-between">
            
@@ -61,17 +61,107 @@
                 <img class="w-[32px] h-[32px]" src="./assets/emergency.png" alt="">
                </div>
                  <!-- heart Icon -->
-            <div id="heart-icon">
+            <div class="heart-icon">
                 <button class="btn btn-ghost hover:text-red-500 "><i class="fa-solid fa-heart"></i></button>
             </div>
             </div>
         <!-- Contact Info -->
             
                <div>
-                <h2 class="font-bold text-[24px]">N</h2>
-                <p class="text-[18px] text-[#5c5c5c]">N</p>
-                <h2 class="font-bold text-[32px]">9</h2>
-                <p class="text-[18px] text-[#5c5c5c]">A</p>
+                <h2 class="font-bold text-[24px]">National Emergency Number</h2>
+                <p class="text-[18px] text-[#5c5c5c]">National Emergency</p>
+                <h2 class="font-bold text-[32px]">999</h2>
+                <p class="text-[18px] text-[#5c5c5c]">All</p>
+               </div>
+            
+            <!-- buttons -->
+            <div class=" flex gap-2">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl rounded-xl flex-1"><span><i class="fa-regular fa-copy text-gray-500 text-xl"></i></span><span>Copy</span></button>
+                    
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl rounded-xl flex-1 bg-[#00a63e] text-white"><span><i class="fa-solid fa-phone"></i></span><span>Call</span></button>
+
+            </div>
+
+        </div>
+        <div id="card-container" class="bg-white p-4">
+            <div class="flex justify-between">
+           
+        <!-- contact Icon -->
+               <div class="w-[60px] h-[60px] bg-[#ffe3e2] flex justify-center items-center rounded-xl">
+                <img class="w-[32px] h-[32px]" src="./assets/police.png" alt="">
+               </div>
+                 <!-- heart Icon -->
+            <div class="heart-icon">
+                <button class="btn btn-ghost hover:text-red-500 "><i class="fa-solid fa-heart"></i></button>
+            </div>
+            </div>
+        <!-- Contact Info -->
+            
+               <div>
+                <h2 class="font-bold text-[24px]">Police Helpline Number</h2>
+                <p class="text-[18px] text-[#5c5c5c]">Police</p>
+                <h2 class="font-bold text-[32px]">999</h2>
+                <p class="text-[18px] text-[#5c5c5c]">Police</p>
+               </div>
+            
+            <!-- buttons -->
+            <div class=" flex gap-2">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl rounded-xl flex-1"><span><i class="fa-regular fa-copy text-gray-500 text-xl"></i></span><span>Copy</span></button>
+                    
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl rounded-xl flex-1 bg-[#00a63e] text-white"><span><i class="fa-solid fa-phone"></i></span><span>Call</span></button>
+
+            </div>
+
+        </div>
+        <div id="card-container" class="bg-white p-4">
+            <div class="flex justify-between">
+           
+        <!-- contact Icon -->
+               <div class="w-[60px] h-[60px] bg-[#ffe3e2] flex justify-center items-center rounded-xl">
+                <img class="w-[32px] h-[32px]" src="./assets/fire-service.png" alt="">
+               </div>
+                 <!-- heart Icon -->
+            <div class="heart-icon">
+                <button class="btn btn-ghost hover:text-red-500 "><i class="fa-solid fa-heart"></i></button>
+            </div>
+            </div>
+        <!-- Contact Info -->
+            
+               <div>
+                <h2 class="font-bold text-[24px]">Fire Service Number</h2>
+                <p class="text-[18px] text-[#5c5c5c]">Fire Service</p>
+                <h2 class="font-bold text-[32px]">999</h2>
+                <p class="text-[18px] text-[#5c5c5c]">Fire</p>
+               </div>
+            
+            <!-- buttons -->
+            <div class=" flex gap-2">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl rounded-xl flex-1"><span><i class="fa-regular fa-copy text-gray-500 text-xl"></i></span><span>Copy</span></button>
+                    
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl rounded-xl flex-1 bg-[#00a63e] text-white"><span><i class="fa-solid fa-phone"></i></span><span>Call</span></button>
+
+            </div>
+
+        </div>
+        <div id="card-container" class="bg-white p-4">
+            <div class="flex justify-between">
+           
+        <!-- contact Icon -->
+               <div class="w-[60px] h-[60px] bg-[#ffe3e2] flex justify-center items-center rounded-xl">
+                <img class="w-[32px] h-[32px]" src="./assets/ambulance.png" alt="">
+               </div>
+                 <!-- heart Icon -->
+            <div class="heart-icon">
+                <button class="btn btn-ghost hover:text-red-500 "><i class="fa-solid fa-heart"></i></button>
+            </div>
+            </div>
+        <!-- Contact Info -->
+            
+               <div>
+                <h2 class="font-bold text-[24px]">Ambulance Service</h2>
+                <p class="text-[18px] text-[#5c5c5c]">Ambulance </p>
+                <h2 class="font-bold text-[32px]">1994-999999</h2>
+                <p class="text-[18px] text-[#5c5c5c]">Health</p>
                </div>
             
             <!-- buttons -->
@@ -91,17 +181,17 @@
                 <img class="w-[32px] h-[32px]" src="./assets/emergency.png" alt="">
                </div>
                  <!-- heart Icon -->
-            <div id="heart-icon">
+            <div class="heart-icon">
                 <button class="btn btn-ghost hover:text-red-500 "><i class="fa-solid fa-heart"></i></button>
             </div>
             </div>
         <!-- Contact Info -->
             
                <div>
-                <h2 class="font-bold text-[24px]">N</h2>
-                <p class="text-[18px] text-[#5c5c5c]">N</p>
-                <h2 class="font-bold text-[32px]">9</h2>
-                <p class="text-[18px] text-[#5c5c5c]">A</p>
+                <h2 class="font-bold text-[24px]">Women & Child Helpline</h2>
+                <p class="text-[18px] text-[#5c5c5c]">Women & Child Helpline</p>
+                <h2 class="font-bold text-[32px]">109</h2>
+                <p class="text-[18px] text-[#5c5c5c]">Help</p>
                </div>
             
             <!-- buttons -->
@@ -121,17 +211,17 @@
                 <img class="w-[32px] h-[32px]" src="./assets/emergency.png" alt="">
                </div>
                  <!-- heart Icon -->
-            <div id="heart-icon">
+            <div class="heart-icon">
                 <button class="btn btn-ghost hover:text-red-500 "><i class="fa-solid fa-heart"></i></button>
             </div>
             </div>
         <!-- Contact Info -->
             
                <div>
-                <h2 class="font-bold text-[24px]">N</h2>
-                <p class="text-[18px] text-[#5c5c5c]">N</p>
-                <h2 class="font-bold text-[32px]">9</h2>
-                <p class="text-[18px] text-[#5c5c5c]">A</p>
+                <h2 class="font-bold text-[24px]">Anti-Corruption Helpline</h2>
+                <p class="text-[18px] text-[#5c5c5c]">Anti-Corruption</p>
+                <h2 class="font-bold text-[32px]">106</h2>
+                <p class="text-[18px] text-[#5c5c5c]">Govt.</p>
                </div>
             
             <!-- buttons -->
@@ -151,17 +241,17 @@
                 <img class="w-[32px] h-[32px]" src="./assets/emergency.png" alt="">
                </div>
                  <!-- heart Icon -->
-            <div id="heart-icon">
+            <div class="heart-icon">
                 <button class="btn btn-ghost hover:text-red-500 "><i class="fa-solid fa-heart"></i></button>
             </div>
             </div>
         <!-- Contact Info -->
             
                <div>
-                <h2 class="font-bold text-[24px]">N</h2>
-                <p class="text-[18px] text-[#5c5c5c]">N</p>
-                <h2 class="font-bold text-[32px]">9</h2>
-                <p class="text-[18px] text-[#5c5c5c]">A</p>
+                <h2 class="font-bold text-[24px]">Electricity Helpline</h2>
+                <p class="text-[18px] text-[#5c5c5c]">Electricity Outage</p>
+                <h2 class="font-bold text-[32px]">16216</h2>
+                <p class="text-[18px] text-[#5c5c5c]">Electricity</p>
                </div>
             
             <!-- buttons -->
@@ -178,20 +268,20 @@
            
         <!-- contact Icon -->
                <div class="w-[60px] h-[60px] bg-[#ffe3e2] flex justify-center items-center rounded-xl">
-                <img class="w-[32px] h-[32px]" src="./assets/emergency.png" alt="">
+                <img class="w-[32px] h-[32px]" src="./assets/brac.png" alt="">
                </div>
                  <!-- heart Icon -->
-            <div id="heart-icon">
+            <div class="heart-icon">
                 <button class="btn btn-ghost hover:text-red-500 "><i class="fa-solid fa-heart"></i></button>
             </div>
             </div>
         <!-- Contact Info -->
             
                <div>
-                <h2 class="font-bold text-[24px]">N</h2>
-                <p class="text-[18px] text-[#5c5c5c]">N</p>
-                <h2 class="font-bold text-[32px]">9</h2>
-                <p class="text-[18px] text-[#5c5c5c]">A</p>
+                <h2 class="font-bold text-[24px]">Brac Helpline</h2>
+                <p class="text-[18px] text-[#5c5c5c]">Brac</p>
+                <h2 class="font-bold text-[32px]">16445</h2>
+                <p class="text-[18px] text-[#5c5c5c]">NGO</p>
                </div>
             
             <!-- buttons -->
@@ -208,20 +298,20 @@
            
         <!-- contact Icon -->
                <div class="w-[60px] h-[60px] bg-[#ffe3e2] flex justify-center items-center rounded-xl">
-                <img class="w-[32px] h-[32px]" src="./assets/emergency.png" alt="">
+                <img class="w-[32px] h-[32px]" src="./assets/Bangladesh-Railway.png" alt="">
                </div>
                  <!-- heart Icon -->
-            <div id="heart-icon">
+            <div class="heart-icon">
                 <button class="btn btn-ghost hover:text-red-500 "><i class="fa-solid fa-heart"></i></button>
             </div>
             </div>
         <!-- Contact Info -->
             
                <div>
-                <h2 class="font-bold text-[24px]">N</h2>
-                <p class="text-[18px] text-[#5c5c5c]">N</p>
-                <h2 class="font-bold text-[32px]">9</h2>
-                <p class="text-[18px] text-[#5c5c5c]">A</p>
+                <h2 class="font-bold text-[24px]">Bangladesh Railway Helpline </h2>
+                <p class="text-[18px] text-[#5c5c5c]">Bangladesh Railway</p>
+                <h2 class="font-bold text-[32px]">163</h2>
+                <p class="text-[18px] text-[#5c5c5c]">Travel</p>
                </div>
             
             <!-- buttons -->
