@@ -1,4 +1,5 @@
 // Reusable Function
+// getClick
 function getClick(id){
     const coin = document.getElementById('coin-number')
     const coinTotal = parseInt(coin.innerText)
@@ -8,6 +9,24 @@ function getClick(id){
     }
     coin.innerText = coinTotal -20
 }
+
+// copynumber
+function copyNumber(emergencyNumberId){
+    const emergencyNumber = document.getElementById(emergencyNumberId)
+    const innerNumber = emergencyNumber.innerText
+    
+    // second part
+    navigator.clipboard.writeText(innerNumber).then(function(){
+        const copyTotal = document.getElementById('copy-total-number')
+        const copyTotalNumber = parseInt(copyTotal.innerText)
+        const updatedcopyTotalNumber = copyTotalNumber + 1
+        copyTotal.innerText = updatedcopyTotalNumber
+    })
+}
+
+
+
+// reusable finish
 
 
 // Heart function
@@ -55,4 +74,33 @@ document.getElementById('emergency-call-button-8').addEventListener('click', fun
 })
 document.getElementById('emergency-call-button-9').addEventListener('click', function(){
      getClick('emergency-call-button-9')
+})
+
+// copy button
+document.getElementById('copy-btn-1').addEventListener('click', function(){
+    copyNumber('emergency-number-1')
+})
+document.getElementById('copy-btn-2').addEventListener('click', function(){
+    copyNumber('emergency-number-2')
+})
+document.getElementById('copy-btn-3').addEventListener('click', function(){
+    copyNumber('emergency-number-3')
+})
+document.getElementById('copy-btn-4').addEventListener('click', function(){
+    copyNumber('emergency-number-4')
+})
+document.getElementById('copy-btn-5').addEventListener('click', function(){
+    copyNumber('emergency-number-5')
+})
+document.getElementById('copy-btn-6').addEventListener('click', function(){
+    copyNumber('emergency-number-6')
+})
+document.getElementById('copy-btn-7').addEventListener('click', function(){
+    copyNumber('emergency-number-7')
+})
+document.getElementById('copy-btn-8').addEventListener('click', function(){
+    copyNumber('emergency-number-8')
+})
+document.getElementById('copy-btn-9').addEventListener('click', function(){
+    copyNumber('emergency-number-9')
 })
