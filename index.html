@@ -17,23 +17,23 @@
 </head>
 <body class="bg-[#f5fff6]">
  <!-- navbar -->
-  <nav class="h-[100px] bg-white flex">
-    <div id="nav-containers" class="flex justify-between items-center w-full px-6">
-    <div id="nav-left" class="flex items-center gap-3">
-        <img class="w-12 h-12 object-contain" src="./assets/logo.png" alt="">
-        <h2 class="text-[#006747] font-bold text-[20px]">EMERGENCY <br>SERVICE</h2>
+  <nav class="min-h-[80px] md:h-[100px] bg-white flex">
+    <div id="nav-containers" class="flex flex-col md:flex-row justify-between items-center w-full px-6">
+    <div id="nav-left" class="flex items-center gap-3 mb-2 md:mb-0">
+        <img class="w-10 h-10 md:w-12 md:h-12 object-contain" src="./assets/logo.png" alt="">
+        <h2 class="text-[#006747] font-bold text-[16px] md:text-[20px]">EMERGENCY <br>SERVICE</h2>
     </div>
-    <div id="nav-right" class="flex items-center gap-4">
-        <div id="nav-hearts" class="flex items-center gap-1 bg-[#f5fff6] px-3 py-1 rounded">
+    <div id="nav-right" class="flex items-center gap-2 md:gap-4">
+        <div id="nav-hearts" class="flex flex-wrap items-center gap-1 bg-[#f5fff6] px-2 md:px-3 py-1 rounded">
             <span id="heart-number" >0</span>
             <span>❤️</span>
         </div>
-        <div id="nav-stars" class="flex items-center gap-1 bg-[#f5fff6] px-3 py-1 rounded">
+        <div id="nav-stars" class="flex items-center gap-1 bg-[#f5fff6] px-2 md:px-3 py-1 rounded">
             <span id="coin-number">100</span>
-            <span><img class="w-[18px] h-[18px]" src="./assets/coin.png" alt=""></span>
+            <span><img class="w-[16px] h-[16px] md:w-[18px] md:h-[18px]" src="./assets/coin.png" alt=""></span>
         </div>
         <div id="nav-btn" class="">
-            <button class="btn btn-soft rounded-full px-6 bg-[#00a63e]"><span id="copy-total-number">0</span>
+            <button class="btn btn-soft rounded-full text-sm md:text-base px-4 md:px-6 bg-[#00a63e]"><span id="copy-total-number">0</span>
             <span>Copy</span></button>
         </div>
 
@@ -42,18 +42,18 @@
   </nav>
   <!-- navbar Finished -->
    <!-- Hero SEction Starts -->
-  <section class="w-full h-[240px] flex flex-col items-center justify-center bg-gradient-to-r from-[#013123] via-[#006747] to-[#013223]">
-    <img class="w-[92px] h-[92px] " src="./assets/logo-dark.png" alt="">
-    <h2 class="text-white text-[40px] font-bold">Emergency Service Directory</h2>
-    <p class="text-[20px] text-white font-semibold">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
+  <section class="w-full min-h-[200px] md:h-[240px] flex flex-col items-center justify-center bg-gradient-to-r from-[#013123] via-[#006747] to-[#013223]">
+    <img class="w-[60px] h-[60px] md:w-[92px] md:h-[92px] " src="./assets/logo-dark.png" alt="">
+    <h2 class="text-white text-[24px] md:text-[40px] font-bold text-center leading-tight">Emergency Service Directory</h2>
+    <p class="text-[14px] md:text-[20px] text-white font-semibold text-center mt-2 max-w-4xl">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
   </section>
 
   <!-- Hero Section Done -->
 <!-- Main SEction Starts -->
-   <div id="main-section-container" class="min-h-screen my-4 mx-4 flex gap-4">
+   <div id="main-section-container" class="min-h-screen my-4 mx-2 md:mx-4 flex flex-col lg:flex-row gap-4">
     <!-- left section -->
-      <div id="left-section-container" class="grid grid-cols-3 gap-4 w-3/4">
-        <div id="card-container" class="bg-white p-4">
+      <div id="left-section-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full lg:w-3/4">
+        <div id="card-container" class="bg-white p-3 md:p-4 rounded-lg shadow-sm">
             <div class="flex justify-between">
            
         <!-- contact Icon -->
@@ -83,7 +83,7 @@
             </div>
 
         </div>
-        <div id="card-container" class="bg-white p-4">
+        <div id="card-container" class="bg-white p-3 md:p-4 rounded-lg shadow-sm">
             <div class="flex justify-between">
            
         <!-- contact Icon -->
@@ -113,7 +113,7 @@
             </div>
 
         </div>
-        <div id="card-container" class="bg-white p-4">
+        <div id="card-container" class="bg-white p-3 md:p-4 rounded-lg shadow-sm">
             <div class="flex justify-between">
            
         <!-- contact Icon -->
@@ -143,7 +143,7 @@
             </div>
 
         </div>
-        <div id="card-container" class="bg-white p-4">
+        <div id="card-container" class="bg-white p-3 md:p-4 rounded-lg shadow-sm">
             <div class="flex justify-between">
            
         <!-- contact Icon -->
@@ -173,7 +173,7 @@
             </div>
 
         </div>
-        <div id="card-container" class="bg-white p-4">
+        <div id="card-container" class="bg-white p-3 md:p-4 rounded-lg shadow-sm">
             <div class="flex justify-between">
            
         <!-- contact Icon -->
@@ -203,7 +203,7 @@
             </div>
 
         </div>
-        <div id="card-container" class="bg-white p-4">
+        <div id="card-container" class="bg-white p-3 md:p-4 rounded-lg shadow-sm">
             <div class="flex justify-between">
            
         <!-- contact Icon -->
@@ -233,7 +233,7 @@
             </div>
 
         </div>
-        <div id="card-container" class="bg-white p-4">
+        <div id="card-container" class="bg-white p-3 md:p-4 rounded-lg shadow-sm">
             <div class="flex justify-between">
            
         <!-- contact Icon -->
@@ -263,7 +263,7 @@
             </div>
 
         </div>
-        <div id="card-container" class="bg-white p-4">
+        <div id="card-container" class="bg-white p-3 md:p-4 rounded-lg shadow-sm">
             <div class="flex justify-between">
            
         <!-- contact Icon -->
@@ -293,7 +293,7 @@
             </div>
 
         </div>
-        <div id="card-container" class="bg-white p-4">
+        <div id="card-container" class="bg-white p-3 md:p-4 rounded-lg shadow-sm">
             <div class="flex justify-between">
            
         <!-- contact Icon -->
@@ -326,9 +326,9 @@
 
       </div>
     <!-- Right Section -->
-     <div id="right-section" class="w-1/4  bg-white">
+     <div id="right-section" class="w-full lg:w-1/4 bg-white rounded-lg order-first lg:order-last">
         <div id="right-section-headings" class="flex justify-between items-center my-1 p-3">
-            <p><i class="fa-solid fa-clock"></i>Call History</p>
+            <p><i class="fa-solid fa-clock mr-1"></i>Call History</p>
             <button class="btn btn-soft rounded-full px-6 bg-[#00a63e]">
             <span id="clear-button">Clear</span></button>
         </div>
